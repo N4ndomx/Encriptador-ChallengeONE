@@ -1,0 +1,156 @@
+body {
+    position: relative;
+
+    /* Light blue/light-blue-100 */
+
+    background: #F3F5FC;
+
+}
+
+header {
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+}
+
+#logo {
+    width: 110px;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1.5%;
+}
+
+
+.container {
+    display: flex
+}
+
+.contenedorResul {
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    float: right;
+    margin-left: auto;
+    flex-basis: 40%;
+    height: 400px;
+
+    /* ajusta la altura según tus necesidades */
+    width: 400px;
+    left: 60%;
+    top: 60%;
+
+    /* White */
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.formTraduccion textarea {
+
+    float: left;
+    text-align: center;
+    height: 400px;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+textarea {
+
+    border: none;
+    resize: none;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background: transparent;
+    outline: 0 none;
+    overflow-y: hidden;
+
+
+    /* Dark blue/dark-blue-300 */
+    color: #0A3871;
+}
+
+form {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+
+.buttons {
+    margin-left: 4%;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: space-between;
+}
+
+
+button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* White */
+    color: #FFFFFF;
+
+    width: 270px;
+    height: 60px;
+
+    /* Dark blue/dark-blue-300 */
+    border-radius: 24px;
+}
+
+
+
+.left-button {
+    margin-right: 8%;
+    /* Dark blue/dark-blue-300 */
+    background: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+.right-button {
+    margin-left: 0%;
+    /* Light gray */
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+}
+
+footer {
+
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

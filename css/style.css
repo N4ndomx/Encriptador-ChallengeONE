@@ -5,6 +5,7 @@ body {
 
     background: #F3F5FC;
 
+
 }
 
 header {
@@ -32,20 +33,13 @@ main {
 }
 
 .contenedorResul {
-
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-
     float: right;
     margin-left: auto;
-    flex-basis: 40%;
-    height: 400px;
-
+    /* flex-basis: 40%; */
+    height: 510px;
     /* ajusta la altura según tus necesidades */
-    width: 400px;
-    left: 60%;
-    top: 60%;
+    width: 40%;
+
 
     /* White */
     background: #FFFFFF;
@@ -57,18 +51,17 @@ main {
 .formTraduccion textarea {
 
     float: left;
-    text-align: center;
+    text-align: left;
     height: 400px;
-    flex-direction: column;
-    width: 400px;
+    width: 105%;
 
 }
 
 textarea {
-
+    margin: 1% 10% auto;
+    display: block;
     border: none;
     resize: none;
-    text-align: left;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -81,6 +74,32 @@ textarea {
 
     /* Dark blue/dark-blue-300 */
     color: #0A3871;
+}
+
+#resultado {
+    margin: 8% 8% auto;
+    display: block;
+
+    /* esto es importante para que el margen funcione */
+}
+
+#menj {
+
+    display: inline-flex;
+    align-items: center;
+    color: #495057;
+    opacity: 0.8;
+    line-height: 20;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    margin-left: 6.5%;
+}
+
+p {
+    margin-left: 12px;
 }
 
 form {
@@ -97,10 +116,10 @@ form {
 
 
 .buttons {
-    margin-left: 4%;
+    margin: 1.5% auto;
+    margin-left: 6.4%;
     display: flex;
-    height: 100%;
-    width: 50%;
+    width: 99%;
     justify-content: space-between;
 }
 
@@ -143,14 +162,4 @@ button {
     /* Dark blue/dark-blue-300 */
 
     border: 1px solid #0A3871;
-}
-
-footer {
-
-    padding: 20px;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }

@@ -19,7 +19,7 @@
         <div class="container">
             <div class="formTraduccion">
                 <form action="">
-                    <textarea> Ingrese texto Aqu&iacute;</textarea>
+                    <textarea id="texto">Ingrese texto Aqui</textarea>
                     <label id="menj">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
                             <path fill="currentColor"
@@ -29,9 +29,9 @@
                     </label>
                 </form>
                 <div class="buttons">
-                    <button type="button" class="left-button">
+                    <button type="button" class="left-button" onclick="encriptar()">
                         Encriptar </button><br>
-                    <button type="button" class="right-button">
+                    <button type="button" class="right-button" onclick="desencriptar()">
                         Desencriptar</button>
                 </div>
             </div>
@@ -44,7 +44,7 @@
 
     </main>
 
-
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

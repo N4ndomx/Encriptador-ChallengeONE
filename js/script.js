@@ -3,15 +3,15 @@ var textarea = document.getElementById('texto');
 var label = document.getElementById('resultado');
 function encriptar() {
     let texto = textarea.value
-    var fraseModificada = texto.replace(/a/g, "ai").replace(/e/g, "enter")
-        .replace(/i/g, "imes").replace(/o/g, "ober").replace(/u/g, "ufat");
+    var fraseModificada = texto.replace(/e/g, "enter")
+        .replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
     console.log(fraseModificada);
     label.innerText = fraseModificada;
 }
 function desencriptar() {
     let texto = textarea.value
-    var fraseModificada = texto.replace(/ai/g, "a").replace(/enter/g, "e")
-        .replace(/imes/g, "i").replace(/ober/g, "o").replace(/ufat/g, "u");
+    var fraseModificada = texto.replace(/enter/g, "e")
+        .replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
     console.log(fraseModificada);
     label.innerText = fraseModificada;
 }
